@@ -1,2 +1,1 @@
-# Run sh install.sh
-# jibutube
+JibuTube
