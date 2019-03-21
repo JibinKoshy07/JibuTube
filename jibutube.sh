@@ -11,15 +11,15 @@ __________________ ______           _________          ______   _______
 
 '
 
-echo '\e[40;38;5;82mWelcome to JibuTube!\e[0m'
+echo 'Welcome to JibuTube!'
 
 
 
-echo '\e[94mEnter the video Quality\e[0m'
-printf '\e[31m37\e[0m for 1080p\n\e[31m22\e[0m for 720p\n\e[31m18\e[0m for 360p\n\e[31m17\e[0m for 144p\n' 
+echo 'Enter the video Quality'
+printf ' 37 for 1080p\n 22 for 720p\n 18 for 360p\n 17 for 144p\n'  
 read -p '=>' b
 
-echo '\e[96mEnter the video link: \e[0m'
+echo 'Enter the video link: '
 read -p '=>' c
 youtube-dl -f $b $c
 
