@@ -1,4 +1,4 @@
-JibuTube is a youTube downloading tool
+JibuTube is a YouTube downloading tool
 
 Open up the terminal and type the following
 
