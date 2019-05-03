@@ -9,7 +9,9 @@ __________________ ______           _________          ______   _______
 (____/   \_______/|/ \___/ (_______)   )_(   (_______)|/ \___/ (_______/
                                                                         
 \e[0m'
-
+printf '\e[40;38;5;37m Version 1.0\e[0m\n'
+echo ''
+echo ''
 printf '\e[40;38;5;82mWelcome to JibuTube!\e[0m\n'
 
 printf '\e[94mEnter the video Quality\e[0m\n'
