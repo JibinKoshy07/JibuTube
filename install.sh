@@ -6,3 +6,6 @@ sudo chmod a+x /usr/local/bin/youtube-dl
 hash -r
 chmod 777 jibutube
 cp jibutube /usr/local/bin
+touch jibutube.sh
+cat jibutube >> jibutube.sh
+chmod +x jibutube.sh
